@@ -1,12 +1,24 @@
 body
 {
-    color: deeppink;
+    background-color: #fefefe;
+    color: #333;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-p{
-    max-width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
+#container{
+    width: 60%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 24px auto;
 }
+
+#container h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+ 
